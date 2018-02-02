@@ -9,24 +9,21 @@ This project was implemented in python.
 4. For caching we made use of dictionary in python.
 
 #Testing:-
-
 1. you can test the proxy server function using telnet protocol
-
- EX:-
+EX:-
     telnet cis.poly.edu 80
 
 	GET /~ross/ HTTP/1.1
-	Host: cis.poly.edu
-
+	Host: cis.poly.edu\r\n\r\n
 	This opens a TCP connection to port 80 of the host cis.poly.edu and then sends the 
 	HTTP request message.You can see the raw base HTML files in the command prompt.
 
 2. You can enter the url in the browser in the below format.
 
      http:// < ip-address >:< port_no >/ < URL >
-EX:-http://localhost:8888/www.google.com
+     EX:-http://localhost:8888/www.google.com
 
  Note :- 
    1. This works only for HTTP protocol(not for HTTPS).
    2. The topic of proxy server was much elaborated in Kurose-Ross Computer-Networking textbook.
-   3. If any errors found email - harshavardhanbangi.2014@gmail.com
+   3. If any errors found,email - harshavardhanbangi.2014@gmail.com
