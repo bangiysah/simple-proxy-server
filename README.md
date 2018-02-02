@@ -14,7 +14,8 @@ EX:-
     telnet cis.poly.edu 80
 
 	GET /~ross/ HTTP/1.1
-	Host: cis.poly.edu\r\n\r\n
+	Host: cis.poly.edu
+	
 	This opens a TCP connection to port 80 of the host cis.poly.edu and then sends the 
 	HTTP request message.You can see the raw base HTML files in the command prompt.
 
