@@ -10,7 +10,7 @@ This project was implemented in python.
 
 #Testing:-
 
-1. you can test the proxy server function using telent protocol
+1. you can test the proxy server function using telnet protocol
 
  EX:-
     telnet cis.poly.edu 80
@@ -23,11 +23,9 @@ This project was implemented in python.
 
 2. You can enter the url in the browser in the below format.
 
-   http:// < ip-address >:< port_no >/ < URL >
+     http:// < ip-address >:< port_no >/ < URL >
+EX:-http://localhost:8888/www.google.com
 
- EX:-
-    http://localhost:8888/www.google.com
- 
  Note :- 
    1. This works only for HTTP protocol(not for HTTPS).
    2. The topic of proxy server was much elaborated in Kurose-Ross Computer-Networking textbook.
