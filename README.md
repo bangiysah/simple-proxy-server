@@ -1,6 +1,6 @@
 #Simple Multi-threaded proxy server with caching
 
-This project was implemented in python.
+The project was implemented in python.
 
 1. In this project a client has to insert URL and the script parses that URL according to HTTP protocol.
 2. It searches for the requested page in cache.If it is found it responses with the requested page.
@@ -34,4 +34,4 @@ This project was implemented in python.
    2. The topic of proxy server was much elaborated in Kurose-Ross Computer-Networking textbook.
 
 
-....--------------------------  END  ---------------------------------....
+-------------------------- THE END  ---------------------------------
